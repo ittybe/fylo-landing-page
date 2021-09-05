@@ -5,3 +5,132 @@
 img {
     display: block;
 }
+
+body {
+    margin: 0;
+    font-family: var(--font-family-body);
+    font-size: var(--font-size-body);
+    font-weight: var(--weight-thin);
+    color: var(--neutral-white);
+}
+
+.heading {
+    font-weight: var(--weight-bold);
+    font-family: var(--font-family-heading);
+
+}
+
+.text {
+    color: var(--neutral-gray);
+}
+
+.header-wrapper {
+    background-color: var(--primary-dark-blue-intro);
+    /* padding: var(--page-top-bottom-padding-mobile) 
+            var(--page-sides-padding-mobile)
+            120px; */
+    position: relative;
+    background-image: url(./assets/bg-curvy-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 60%;
+}
+
+.header-wrapper > * {
+    z-index: 100;
+}
+
+.header-wrapper::after {
+    content: "";
+    width: 100%;
+    height: 33%;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    background-color: var(--primary-dark-blue-main-bg);
+}
+
+.logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-wrapper {
+    background-color: var(--primary-dark-blue-main-bg);
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    padding-top: var(--page-top-bottom-padding-mobile);
+    padding-left: var(--page-top-bottom-padding-mobile);
+    padding-right: var(--page-top-bottom-padding-mobile);
+}
+
+.top-header .logo-wrapper img{
+    width: 6em;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin: 8px;
+}
+
+.menu a:link, .menu a:visited {
+    color: var(--neutral-gray);
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    color: var(--neutral-white);
+}
+
+.middle-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-left: var(--page-sides-padding-mobile);
+    margin-right: var(--page-sides-padding-mobile);
+    margin-bottom: 60px;
+    
+    /* for z index */
+    position: relative;
+}
+
+.middle-header .image-wrapper img {
+    width: 100%;
+}
+
+.middle-header .heading{
+    font-size: x-large;
+    margin-top: 30px;
+}
+
+.middle-header .text {
+    padding: 30px 15px;
+}
+
+.middle-header .button:link,.middle-header .button:visited {
+    background-color: var(--blue-cta-gradient);
+    color: var(--neutral-white);
+    border-radius: 25px;
+    padding: 10px 70px;
+    text-decoration: none;
+}
+
+.middle-header .button:hover{
+    background-color: var(--cyan-cta-gradient);
+}
+
