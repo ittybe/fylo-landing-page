@@ -211,3 +211,60 @@ body {
     margin-left: 5px;
 }
 
+
+/* clients testimonials  */
+
+.client-testimonials-section {
+    background-image: url(./assets/bg-quotes.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.client-testimonial {
+    padding: 25px 10px;
+    background-color: var(--primary-dark-blue-testimonials-bg);
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 25px 0px;
+    padding: 25px;
+}
+
+.client-testimonial .text {
+    line-height: 2em;
+}
+
+.personal-info {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+
+.personal-info img {
+    border-radius: 50%;
+    width: 40px;
+}
+
+.personal-info .image-wrapper {
+    margin-right: 10px;
+}
+
+.personal-info div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.personal-info .first-name {
+    font-weight: var(--weight-bold);
+    font-family: var(--font-family-heading);
+    margin-bottom: 5px;
+}
+
+.personal-info .position {
+    font-size: small;
+    color: var(--neutral-gray);
+    
+}
