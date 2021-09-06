@@ -268,3 +268,56 @@ body {
     color: var(--neutral-gray);
     
 }
+
+
+/* get early access today  */
+
+.get-early-access {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 35px;
+    border-radius: 10px;
+    background-color: var(--primary-dark-blue-intro);
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.get-early-access .heading {
+    font-size: large;
+}
+
+.get-early-access .text {
+    margin: 30px 0px;
+}
+
+.get-early-access input[type=text]{
+    border-radius: 25px;
+    text-indent: 25px;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 30px;
+    border: none;
+}
+.get-early-access input[type=text]:focus{
+    outline: none;
+}
+
+.get-early-access .button {
+    border: none;
+
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+
+    font-size: large;
+    font-weight: var(--weight-bold);
+    font-family: var(--font-family-heading);
+    color: white;
+    
+    background-color: var(--blue-cta-gradient);
+}
+
+.get-early-access .button:hover {
+    background-color: var(--cyan-cta-gradient);
+}
