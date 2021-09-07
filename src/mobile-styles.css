@@ -275,11 +275,14 @@ body {
 .get-early-access {
     display: flex;
     flex-direction: column;
-    padding: 50px 35px;
+    padding: 40px 35px;
     border-radius: 10px;
     background-color: var(--primary-dark-blue-intro);
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    position: relative;
+    bottom: -250px;
 }
 
 
@@ -310,7 +313,6 @@ body {
     height: 50px;
     border-radius: 25px;
 
-    font-size: large;
     font-weight: var(--weight-bold);
     font-family: var(--font-family-heading);
     color: white;
@@ -320,4 +322,70 @@ body {
 
 .get-early-access .button:hover {
     background-color: var(--cyan-cta-gradient);
+}
+
+/* footer */
+
+.footer-wrapper {
+    background-color: var(--primary-dark-blue-footer-bg);
+    padding: 300px var(--page-sides-padding-mobile) var(--page-top-bottom-padding-mobile);
+}
+
+.footer-wrapper .logo-wrapper {
+    display: block;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px;
+}
+
+.contacts>.contact:nth-child(1) .icon {
+    align-self: flex-start;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0px;
+    align-items: center;
+}
+
+.contact .text {
+    margin: 0px 15px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.links .link:visited, .link:link {
+    text-decoration: none;
+    color: var(--neutral-gray);
+    margin: 10px 0px;
+}
+
+.links .link:hover {
+    color: var(--neutral-white);
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;   
+    margin-top: 35px;
+}
+
+.social-media a {
+    margin: 10px;
+    color: var(--neutral-white);
+    transform: scale(1.75);
+}
+
+.social-media a:hover{
+    color: var(--blue-cta-gradient);
 }
