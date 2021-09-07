@@ -44,8 +44,8 @@
         flex-wrap: wrap;
         display: flex;
         justify-content: space-between;
-        margin-left: var(--page-sides-padding-desktop);
-        margin-right:var(--page-sides-padding-desktop);
+        margin-left: var(--sides-padding-desktop);
+        margin-right: var(--sides-padding-desktop);
     }
 
     .advantage {
@@ -63,5 +63,29 @@
         margin-right: 30px;
     }
 
+    .client-testimonials-section {
+        display: flex;
+        flex-direction: row;
+        margin: 80px 10%;
+    }
 
+    .client-testimonial {
+        margin: 25px;
+    }
+
+    .get-early-access {
+        margin-left: var(--sides-padding-desktop);
+        margin-right: var(--sides-padding-desktop);
+    }
+
+    .footer-wrapper {
+        padding-left: 10%;
+        padding-right: 10%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacts {
+        flex-direction: row;
+    }
 }
