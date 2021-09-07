@@ -21,4 +21,7 @@
     --neutral-gray: rgb(211, 211, 211);
     --page-sides-padding-mobile: 25px;
     --page-top-bottom-padding-mobile: 15px;
+
+    --page-sides-padding-desktop: 20%;
+    /* --page-top-bottom-padding-desktop: 15px; */
 }

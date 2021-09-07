@@ -23,6 +23,36 @@
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
+    .top-header .logo-wrapper img{
+        width: 100%;    
+    }
     
+    .top-header {
+        padding: 40px 80px 0px
+    }
+
+    .menu li {
+        margin: 30px;
+    }
+    .middle-header {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+    .section-wrapper {
+        margin-left: var(--page-sides-padding-desktop);
+        margin-right:var(--page-sides-padding-desktop);
+    }
+
+    .advantages-section {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .advantage {
+        width: 40%;
+    }
+
 }
