@@ -40,19 +40,28 @@
         margin-right: 30%;
     }
 
-    .section-wrapper {
-        margin-left: var(--page-sides-padding-desktop);
-        margin-right:var(--page-sides-padding-desktop);
-    }
-
     .advantages-section {
         flex-wrap: wrap;
         display: flex;
         justify-content: space-between;
+        margin-left: var(--page-sides-padding-desktop);
+        margin-right:var(--page-sides-padding-desktop);
     }
 
     .advantage {
         width: 40%;
     }
+
+    .stay-productive-section {
+        display: flex;
+        flex-direction: row;
+        margin: 80px 10%;
+        align-items: center;
+    }
+
+    .stay-productive-section .image-wrapper {
+        margin-right: 30px;
+    }
+
 
 }
