@@ -1,0 +1,28 @@
+@media screen and (min-width: 560px) {
+    .get-early-access {
+        bottom: -150px;
+    }
+
+    .footer-wrapper {
+        padding-top: 150px;
+    }
+
+    .get-early-access>div:nth-child(3) {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .get-early-access .button {
+        min-width: 200px;
+        width: 200px;
+    }
+
+    .get-early-access input[type=text] {
+        margin: 0;
+        margin-right: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    
+}
