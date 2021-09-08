@@ -32,6 +32,7 @@
         padding: 40px 80px 0px
     }
 
+    
     .menu li {
         margin: 30px;
     }
@@ -87,5 +88,39 @@
 
     .contacts {
         flex-direction: row;
+    }
+
+    .contacts>.contact {
+        align-self: flex-start;
+    }
+
+    .contacts>div>.contact:last-child {
+        margin-right: 50px;
+    }
+    
+    .contacts>.links {
+        white-space: nowrap;
+        margin: 0px 20px;
+    }
+
+    .contacts>.social-media {
+        align-items: flex-start;
+        margin-left: 50px;
+        margin-top: 0px;
+    }
+ 
+    .header-wrapper {
+        padding-bottom: 70px;
+    }
+    .header-wrapper::before {
+        background-image: url(./assets/bg-curvy-desktop.svg);
+        background-position: bottom;
+        height: 98%;
+    }
+    .header-wrapper::after {
+        height: 5%;
+    }    
+    .sections-wrapper {
+        padding-top: 0;
     }
 }
